@@ -1,0 +1,50 @@
+body{
+    font-family: 'Khula', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: $primary-color-dark;
+    display: flex;
+    form{
+        padding-right: 10%;
+    }
+    h1{
+        margin: 0;
+        padding-left: 10%;
+    }
+    justify-content: space-between;
+    margin: 0;
+    margin-top: -$margin-top;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+}
+h1, form{
+    align-self: center;
+}
+h4{
+    margin: 0;
+}
+li{
+    display: flex;
+    padding: 10px;
+}
+main{
+    margin-top: $margin-top;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: ".  search search search  .";
+}
+p{
+    margin: 0;
+}
+ul{
+    background-color: $divider-color;
+    grid-area: search;
+    margin: 0;
+}
+.title-description{
+    margin-left: 10px;
+    margin-top: 10px;
+}
