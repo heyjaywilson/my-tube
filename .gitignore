@@ -26,7 +26,7 @@ Icon
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
-.todo
+
 
 # Directories potentially created on remote AFP share
 .AppleDB
@@ -37,3 +37,6 @@ Temporary Items
 
 # eslint
 .eslintrc.js
+
+# Files not to be pushed to github
+.todo
