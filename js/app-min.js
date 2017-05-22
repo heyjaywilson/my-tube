@@ -1,0 +1,1 @@
+var template="<li><img><div><h4><p></p></h4></div></li>";
