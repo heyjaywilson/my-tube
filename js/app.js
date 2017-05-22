@@ -14,18 +14,15 @@ function getData(searchTerm){
 
 function displayData(data){
     console.log(data);
-    var resultElm = ''
+    var result = "";
     //console.log(data.items);
     if (data){
         data.items.forEach(function(item){
             console.log(item.snippet.thumbnails.default.url);
             console.log(item.snippet.title);
             console.log(item.snippet.description);
-            var result = $(template);
-            result.find('img').attr("src", item.snippet.thumbnails.default.url);
-            result.find('h4').html(item.snippet.title);
-            result.find('p').html(item.snippet.description);
-            $('ul').append(result);
+            result += '<li><img src="'+item.snippet.thumbnails.default.url+'"><div><h4>'+item.snippet.title+'</h4><p>'+item.snippet.description+'</p></div></li>';
+            $('ul').html(result);
             //console.log(resultElm);
         });
     }
