@@ -17,15 +17,26 @@ header {
 }
 
 header form {
+  display: flex;
   padding-right: 10%;
 }
 
 header form input {
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+  height: 30px;
+  padding-left: 5px;
   width: 300px;
 }
 
 header form button {
   background-color: #FFCDD2;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+  font-size: 1.25em;
+  height: 35px;
+  margin-left: 10px;
+  width: 50px;
 }
 
 header h1 {
@@ -37,7 +48,7 @@ h1, form {
   align-self: center;
 }
 
-h4 {
+h2 {
   margin: 0;
 }
 
