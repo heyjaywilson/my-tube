@@ -20,6 +20,14 @@ header form {
   padding-right: 10%;
 }
 
+header form input {
+  width: 300px;
+}
+
+header form button {
+  background-color: #FFCDD2;
+}
+
 header h1 {
   margin: 0;
   padding-left: 10%;

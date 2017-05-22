@@ -8,6 +8,12 @@ header{
     display: flex;
     form{
         padding-right: 10%;
+        input{
+            width: 300px;
+        }
+        button{
+            background-color: $primary-color-light;
+        }
     }
     h1{
         margin: 0;
