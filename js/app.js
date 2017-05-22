@@ -19,6 +19,8 @@ function displayData(data){
     if (data){
         data.items.forEach(function(item){
             console.log(item.snippet.thumbnails.default.url);
+            console.log(item.snippet.title);
+            console.log(item.snippet.description);
             var result = $(template);
             result.find('img').attr("src", item.snippet.thumbnails.default.url);
             result.find('h4').html(item.snippet.title);
