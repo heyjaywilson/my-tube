@@ -39,4 +39,4 @@ Temporary Items
 .eslintrc.js
 
 # Files not to be pushed to github
-.todo
+.txt
